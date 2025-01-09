@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.form-section {
+    width: 80%;
+    padding: 5px 5px 15px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #322d2d;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-section label {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.form-section input[type="number"], 
+.form-section input[type="date"] {
+    padding: 5px;
+    width: calc(30%);
+}
+
+.form-section button {
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.summary {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
